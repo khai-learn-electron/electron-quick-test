@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <title>NodeJS package debugger</title>
+        <link rel="stylesheet" href="styles/common.css" />
+        <link id="theme" rel="stylesheet" href="" />
+    </head>
+    <body>
+        <h3 class="controlboard message text-unselectable">
+            <div id="devtools" class="button wider" x-keybinding="f12 ctrl-shift-i">
+                <span>Toggle Dev Tools</span>
+            </div>
+            <div id="reload" class="button wider" x-keybinding="f5 ctrl-r">
+                <span>Reload</span>
+            </div>
+            <div id="exit" class="button wider" x-keybinding="esc alt-f4">
+                <span>Exit</span>
+            </div>
+        </h3>
+        <script type="text/javascript" src="scripts/main.js" />
+    </body>
+</html>

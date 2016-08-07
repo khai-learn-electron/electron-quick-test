@@ -1,0 +1,53 @@
+
+body {
+    font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+    font-weight: normal;
+}
+
+.message {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.centered {
+    text-align: center;
+}
+
+.text-unselectable {
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.wider {
+    padding: 10px;
+}
+
+.pull-left, [x-pull='left'] {
+    float: left;
+}
+
+.pull-right, [x-pull='right'] {
+    float: right;
+}
+
+.horizonal-layout {
+    display: flex;
+    display: -webkit-box;
+}
+
+.wider-space-children > :not(.wider-space-exception) {
+    margin: 5px;
+}
+
+.small-text {
+    font-size: small;
+}
+
+kbd {
+    border: 1px solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: consolas, 'Lucida Console', monospace;
+}

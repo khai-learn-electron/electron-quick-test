@@ -1,0 +1,18 @@
+
+body {
+    color: #fff;
+    background: #181818;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.button:hover {
+    background: #202020;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+.button:active {
+    background: #252525;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+}

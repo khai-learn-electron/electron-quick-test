@@ -1,0 +1,13 @@
+
+body {
+    color: #000;
+    background: #fff;
+}
+
+.button:hover {
+    background: #ccc;
+}
+
+.button:active {
+    background: #aaa;
+}
